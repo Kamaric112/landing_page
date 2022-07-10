@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    flex: 1;
+    flex-shrink: 0  ;
 }
 
 .header {
@@ -90,7 +90,7 @@ body {
 .lower-middle{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 150px;
     height: 170px;
     justify-content: center;
     align-items: center;
@@ -98,13 +98,14 @@ body {
 
 .quote {
     display: flex;
-    width: 500px;
+    width: 800px;
     flex-wrap: wrap;
     align-self: center;
 }
 .name {
     display: flex;
     align-self: flex-end;
+    padding-right: 200px;
 }
 
 .bottom {
@@ -114,7 +115,7 @@ body {
     align-items: center;
 }
 
-.quotebox {
+.signupbox {
     display: flex;
     width: 800px;
     height: 100px;
@@ -128,12 +129,19 @@ body {
 
 
 img {
+    border-color:#3882f6;
+    border-style: solid;
+    border-radius: 20px;
+    background-position: left top;
+    background-repeat: repeat;
+    /* padding: 20px; */
     width: 200px;
     height: 200px;
-}
+  }
+
 
 #img1 {
-    width: 600px;
+    width: 500px;
     height: 300px;
 }
 
@@ -165,13 +173,13 @@ a {
     color: white;
 }
 
-.website {
+#website {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
 }
 
-.webinfo {
+#webinfo {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 200px;
@@ -207,7 +215,7 @@ a {
     background: white;
 }
 
-.quotebox {
+.signupbox {
     background:#3882f6 ;    
     color: white;
 }
